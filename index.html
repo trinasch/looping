@@ -71,10 +71,10 @@
       // this value will increase by one on each iteration of the loop,
       // so image source will cycle through all possible images
       var theOne = counter % imageSources.length;
-      console.log(theOne)
+      
       // reset the src of the image to the next member of the sources array
       theImg.setAttribute("src", imageSources[theOne]);
-      console.log(imageSources[theOne])
+
       // TODO: increment the counter and rides completed
       counter = counter - 1;
       rideCount = rideCount + 1;
